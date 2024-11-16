@@ -4,11 +4,9 @@ import string
 
 import featuretools as ft
 from featuretools.primitives import (
-    DiversityScore,
     MeanCharactersPerWord,
     NumCharacters,
     NumWords,
-    PolarityScore,
 )
 
 from evalml.pipelines.components.transformers.preprocessing import LSA, TextTransformer
